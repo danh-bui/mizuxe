@@ -33,9 +33,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .head-line {
-    transform: translateY(3rem);
-    margin-top: 1rem;
+  .subtitle {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
   }
 
   .primary-overlay {
@@ -96,12 +98,17 @@ body {
   #showcase {
     height: 88vh;
     .container {
-      padding: 4rem;
+      // padding: 4rem;
     }
     // h1 {font-size: 2.9rem;}
-    .head-line {
-      margin-top: -.8rem;
+    .subtitle {
+      // flex-direction: column;
+      margin-top: 0;
       padding-top: 0;
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
     }
 
   }
