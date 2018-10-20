@@ -45,8 +45,9 @@ body {
   line-height: 2.2; }
 #accordion .card-header {
   padding: 0;
-  height: 3rem;
-  cursor: pointer; }
+  height: 3rem; }
+  #accordion .card-header h5 {
+    cursor: pointer; }
   #accordion .card-header h5:hover {
     cursor: pointer; }
 
