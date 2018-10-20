@@ -24,7 +24,6 @@ body {
     transform: translate(-50%, -50%); }
   #showcase .head-line {
     transform: translateY(3rem);
-    padding-top: 3rem;
     margin-top: 3rem; }
   #showcase .primary-overlay {
     background: rgba(50, 146, 166, 0.8);
