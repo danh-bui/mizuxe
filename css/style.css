@@ -135,7 +135,7 @@ body {
     line-height: 1; }
   #showcase .subtitle {
     width: 380px;
-    top: 0; }
+    top: -2rem; }
     #showcase .subtitle p {
       margin: .5rem; } }
 .screen-reader-text {
