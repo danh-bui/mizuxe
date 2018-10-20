@@ -40,8 +40,14 @@ body {
   margin: auto;
   border-bottom: 1px solid #ddd; }
 
-#accordion .card-header:hover {
-  cursor: pointer; }
+#accordion h5 {
+  margin: 0;
+  line-height: 2.2; }
+#accordion .card-header {
+  padding: 0;
+  height: 3rem; }
+  #accordion .card-header:hover {
+    cursor: pointer; }
 
 #authors img {
   margin-top: -50px; }
@@ -68,27 +74,26 @@ body {
     height: 88vh; }
     #showcase .subtitle {
       margin-top: 0;
-      padding-top: 0;
-      position: absolute;
-      top: 50%;
-      left: 0;
-      transform: translateY(-50%); }
+      padding-top: 0; }
 
   #authors .card {
     margin-bottom: 4rem; } }
 @media only screen and (max-width: 899px) {
   html {
-    font-size: 80%; }
+    font-size: 75%; }
+
+  .navbar {
+    height: 12vh; }
 
   .mb-resp {
     margin-bottom: 1rem; }
 
-  #showcase h1 {
-    font-size: 3rem; }
-  #showcase .head-line {
-    margin-top: 0;
-    padding-top: 0;
-    order: 2; }
+  #showcase {
+    height: 88vh; }
+    #showcase .subtitle-container {
+      margin-top: 0;
+      padding-top: 0;
+      order: 2; }
 
   #contact {
     flex-direction: column; }
@@ -98,17 +103,6 @@ body {
       position: relative;
       left: 50%;
       transform: translate(-50%, 1.4rem); } }
-@media only screen and (min-width: 1800px) {
-  #showcase h1 {
-    font-size: 4rem; }
-
-  #showcase .container {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(2); }
-  #showcase h1 {
-    font-size: 6rem; } }
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);
