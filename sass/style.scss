@@ -40,6 +40,11 @@ body {
     transform: translateY(-50%);
   }
 
+  img {
+    width: 100%;
+    height: auto;
+  }
+
   .primary-overlay {
     background: $primary-overlay;
     position: absolute;
@@ -57,15 +62,15 @@ body {
 }
 
 #accordion{
-  h5 {
-    margin: 0;
-    line-height: 2.2;
-  }
   .card-header {
     // display: inline;
     padding: 0;
     height: 3rem;
-    h5 {cursor: pointer;}
+    h5 {
+      cursor: pointer;
+      margin: 0;
+      line-height: 2.2;
+    }
     h5:hover {
     cursor: pointer;
     }
@@ -94,11 +99,6 @@ body {
 
 
 @media only screen and (max-width: 1199px) {
-  
-  // html {
-  //   font-size: 87.5%;
-  // }
-
   body {
     margin-top: 12vh;
   }
@@ -109,14 +109,12 @@ body {
 
   #showcase {
     height: 88vh;
-    // h1 {font-size: 2.9rem;}
     .subtitle {
-      // flex-direction: column;
       margin-top: 0;
       padding-top: 0;
     }
-
   }
+
   #authors {
     .card {
       margin-bottom: 4rem;
@@ -158,7 +156,11 @@ body {
         margin: .5rem;
       }
     }
-
+    img {
+      width: 90%;
+      height: 100%;
+      justify-self: center;
+    }
     #book-cover {
       margin-top: -10rem;
     }
