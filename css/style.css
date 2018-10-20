@@ -54,19 +54,27 @@ body {
   margin-bottom: 0; }
 
 @media only screen and (max-width: 991px) {
+  html {
+    font-size: 80%; }
+
   body {
-    margin-top: 14.5vh; }
+    margin-top: 12vh; }
+
+  .navbar {
+    height: 12vh; }
 
   .mb-resp {
     margin-bottom: 1rem; }
 
+  #showcase .container {
+    padding: 4rem; }
   #showcase h1 {
     font-size: 2.9rem; }
   #showcase .head-line {
     margin-top: 0;
     padding-top: 0;
     order: 2;
-    transform: translateY(-8vh); }
+    transform: translateY(-6vh); }
 
   #authors .card {
     margin-bottom: 4rem; } }
