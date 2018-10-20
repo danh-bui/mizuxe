@@ -35,8 +35,7 @@ body {
   }
   .head-line {
     transform: translateY(3rem);
-    // padding-top: 3rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
   #book-cover {
     // margin-top: -3rem;
@@ -86,7 +85,7 @@ body {
 @media only screen and (max-width: 62em) {
   
   html {
-    font-size: 80%;
+    font-size: 90%;
   }
 
   body {
@@ -107,7 +106,7 @@ body {
     }
     h1 {font-size: 2.9rem;}
     .head-line {
-      margin-top: 0;
+      margin-top: 1rem;
       padding-top: 0;
       order: 2;
       transform: translateY(-6vh);
