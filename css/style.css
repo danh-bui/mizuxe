@@ -129,6 +129,9 @@ body {
   html {
     font-size: 83%; }
 
+  .navbar {
+    height: auto; }
+
   #showcase .subtitle h1 {
     font-size: 4rem;
     font-weight: 300;
