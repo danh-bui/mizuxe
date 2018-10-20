@@ -79,20 +79,33 @@ body {
     margin-bottom: 4rem; } }
 @media only screen and (max-width: 899px) {
   html {
-    font-size: 75%; }
+    font-size: 87.5%; }
 
   .navbar {
-    height: 12vh; }
+    height: 10vh; }
+
+  body {
+    margin-top: 10vh; }
 
   .mb-resp {
     margin-bottom: 1rem; }
 
   #showcase {
-    height: 88vh; }
+    height: 90vh; }
     #showcase .subtitle-container {
       margin-top: 0;
       padding-top: 0;
       order: 2; }
+    #showcase .subtitle {
+      position: absolute;
+      width: 500px;
+      top: -5rem;
+      left: 50%;
+      transform: translateX(-50%); }
+      #showcase .subtitle p {
+        margin: .5rem; }
+    #showcase #book-cover {
+      margin-top: -10rem; }
 
   #contact {
     flex-direction: column; }
