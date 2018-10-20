@@ -4,7 +4,8 @@ body {
 .navbar {
   box-shadow: 2px 2px 5px #3292a6;
   opacity: .9;
-  background: #fff; }
+  background: #fff;
+  height: 14.2vh; }
   .navbar .nav-item {
     font-size: 1.2rem;
     padding-right: 1.2rem; }
@@ -13,7 +14,7 @@ body {
 
 #showcase {
   position: relative;
-  min-height: 86vh;
+  height: 86vh;
   background: url("../img/mountains.jpg");
   background-size: cover; }
   #showcase .container {
@@ -51,10 +52,8 @@ body {
   margin-bottom: 0; }
 
 @media only screen and (max-width: 768px) {
-  #showcase {
-    min-height: 500px; }
-    #showcase h1 {
-      font-size: 4rem; }
+  #showcase h1 {
+    font-size: 4rem; }
 
   .mb-resp {
     margin-bottom: 1rem; }
@@ -74,10 +73,8 @@ body {
   #authors .card {
     margin-bottom: 4rem; } }
 @media only screen and (min-width: 1800px) {
-  #showcase {
-    min-height: 88vh; }
-    #showcase h1 {
-      font-size: 4rem; }
+  #showcase h1 {
+    font-size: 4rem; }
 
   #showcase .container {
     position: absolute;
