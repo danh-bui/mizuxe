@@ -37,9 +37,6 @@ body {
     transform: translateY(3rem);
     margin-top: 1rem;
   }
-  #book-cover {
-    // margin-top: -3rem;
-  }
 
   .primary-overlay {
     background: $primary-overlay;
@@ -82,10 +79,10 @@ body {
 }
 
 
-@media only screen and (max-width: 62em) {
+@media only screen and (max-width: 1199px) {
   
   html {
-    font-size: 90%;
+    font-size: 87.5%;
   }
 
   body {
@@ -96,20 +93,15 @@ body {
     height: 12vh;
   }
 
-  .mb-resp {
-    margin-bottom: 1rem;
-  }
   #showcase {
-    // transform: translateY(5.8vh);
+    height: 88vh;
     .container {
       padding: 4rem;
     }
-    h1 {font-size: 2.9rem;}
+    // h1 {font-size: 2.9rem;}
     .head-line {
-      margin-top: 1rem;
+      margin-top: -.8rem;
       padding-top: 0;
-      order: 2;
-      transform: translateY(-6vh);
     }
 
   }
@@ -120,9 +112,12 @@ body {
   }
 }
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 899px) {
   html {
     font-size: 80%;
+  }
+  .mb-resp {
+    margin-bottom: 1rem;
   }
   #showcase {
     h1 {font-size: 3rem;}
@@ -132,9 +127,6 @@ body {
       order: 2;
       // transform: translateY(-8vh);
     }
-  }
-  .mb-resp {
-    margin-bottom: 1rem;
   }
   #contact {
     flex-direction: column;
@@ -148,7 +140,7 @@ body {
   }
 }
 
-@media only screen and (max-width: 36em) {
+@media only screen and (max-width: 599px) {
 
 }
 
