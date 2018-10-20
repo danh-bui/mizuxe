@@ -24,12 +24,20 @@ body {
 
 #showcase {
   position: relative;
+  min-height: 86vh;
   background: url('../img/mountains.jpg');
   background-size: cover;
-  height: 100vh;
-  // min-height: 85vh;
+  .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .head-line {
+    transform: translateY(3rem);
+  }
   #book-cover {
-    margin-top: -3rem;
+    // margin-top: -3rem;
   }
 
   .primary-overlay {

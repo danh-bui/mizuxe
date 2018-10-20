@@ -13,11 +13,16 @@ body {
 
 #showcase {
   position: relative;
+  min-height: 86vh;
   background: url("../img/mountains.jpg");
-  background-size: cover;
-  min-height: 85vh; }
-  #showcase #book-cover {
-    margin-top: -3rem; }
+  background-size: cover; }
+  #showcase .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  #showcase .head-line {
+    transform: translateY(3rem); }
   #showcase .primary-overlay {
     background: rgba(50, 146, 166, 0.8);
     position: absolute;
