@@ -47,7 +47,7 @@ body {
   padding: 0;
   height: 3rem;
   cursor: pointer; }
-  #accordion .card-header:hover {
+  #accordion .card-header h5:hover {
     cursor: pointer; }
 
 #authors img {
