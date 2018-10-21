@@ -129,26 +129,28 @@ body {
   .navbar {
     height: auto; }
 
-  #showcase .subtitle-container {
-    margin-top: 0;
-    padding-top: 0;
-    order: 1; }
-  #showcase .subtitle {
-    width: 380px;
-    top: 1.6rem; }
-    #showcase .subtitle p {
-      display: none;
-      margin: .5rem; }
-    #showcase .subtitle h1 {
-      font-size: 3rem;
-      font-weight: 300;
-      line-height: 1; }
-  #showcase img {
-    position: relative;
-    top: 1rem;
-    left: 0;
-    width: 100%;
-    height: 100%; } }
+  #showcase {
+    height: 90vh; }
+    #showcase .subtitle-container {
+      margin-top: 0;
+      padding-top: 0;
+      order: 2; }
+    #showcase .subtitle {
+      width: 380px;
+      top: 1.6rem; }
+      #showcase .subtitle p {
+        display: none;
+        margin: .5rem; }
+      #showcase .subtitle h1 {
+        font-size: 3rem;
+        font-weight: 300;
+        line-height: 1; }
+    #showcase img {
+      position: relative;
+      top: 1rem;
+      left: 0;
+      width: 100%;
+      height: 100%; } }
 .screen-reader-text {
   border: 0;
   clip: rect(1px, 1px, 1px, 1px);

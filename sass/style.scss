@@ -188,10 +188,11 @@ body {
     height: auto;
   }
   #showcase {
+    height: 90vh;
     .subtitle-container {
       margin-top: 0;
       padding-top: 0;
-      order: 1;
+      order: 2;
       // transform: translateY(-8vh);
     }
     .subtitle {
